@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 21,
+    "topRow": 25,
     "pageSize": 6,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "masektdrzh",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 93,
+    "originalBottomRow": 97,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -89,7 +89,7 @@
     "widgetName": "List1",
     "listData": "{{GET_Exercises.data}}",
     "displayName": "List",
-    "bottomRow": 93,
+    "bottomRow": 97,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 22,
@@ -108,7 +108,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 34,
     "responsiveBehavior": "fill",
-    "originalTopRow": 21,
+    "originalTopRow": 25,
     "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"
 }
