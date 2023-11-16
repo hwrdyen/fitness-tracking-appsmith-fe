@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "Exercise",
+      "isDefault": false
+    },
+    {
+      "id": "Plan",
+      "isDefault": false
+    },
+    {
+      "id": "Create Exercise",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#CCCCCC",
+  "icon": "rupee",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
