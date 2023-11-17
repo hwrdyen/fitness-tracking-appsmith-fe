@@ -1,0 +1,67 @@
+{
+  "unpublishedPage": {
+    "name": "Create Workout Plan",
+    "slug": "create-workout-plan",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 890,
+          "containerStyle": "none",
+          "snapRows": 66,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 680,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Create Workout Plan_Get_Exercise",
+              "name": "Get_Exercise",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Create Workout Plan_JSObject2.ResetVisibility",
+              "name": "JSObject2.ResetVisibility",
+              "collectionId": "Create Workout Plan_JSObject2",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  Exercise_1.setSelectedOption({\n    value: undefined\n  });\n  Exercise_2.setSelectedOption({\n    value: undefined\n  });\n  Exercise_3.setSelectedOption({\n    value: undefined\n  });\n  Exercise_4.setSelectedOption({\n    value: undefined\n  });\n  Exercise_5.setSelectedOption({\n    value: undefined\n  });\n  Container2.setVisibility(false);\n  Exercise_2.setVisibility(false);\n  AddButton_2.setVisibility(false);\n  MinusButton_2.setVisibility(false);\n  Container3.setVisibility(false);\n  Exercise_3.setVisibility(false);\n  AddButton_3.setVisibility(false);\n  MinusButton_3.setVisibility(false);\n  Container4.setVisibility(false);\n  Exercise_4.setVisibility(false);\n  AddButton_4.setVisibility(false);\n  MinusButton_4.setVisibility(false);\n  Container5.setVisibility(false);\n  Exercise_5.setVisibility(false);\n  MinusButton_5.setVisibility(false);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Create Workout Plan",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "65567564e8f0205dfc873dc0_6556758ae8f0205dfc873dc9"
+}

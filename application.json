@@ -9,11 +9,15 @@
       "isDefault": false
     },
     {
-      "id": "Plan",
+      "id": "Create Workout Plan",
       "isDefault": false
     },
     {
       "id": "Create Exercise",
+      "isDefault": false
+    },
+    {
+      "id": "Plan",
       "isDefault": false
     }
   ],
@@ -27,6 +31,9 @@
   },
   "color": "#CCCCCC",
   "icon": "rupee",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button1",
-    "onClick": "{{Post_Exercise.run();}}",
+    "onClick": "{{Post_Exercise.run({\n\t\"name\": ExerciseName_Input.text,\n\t\"calories\": Calories_Input.text,\n\t\"video_link\": VideoLink_Input.text,\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

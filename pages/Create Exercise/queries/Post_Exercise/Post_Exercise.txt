@@ -1,3 +1,5 @@
 {
-	
+	"name": ExerciseName_Input.text,
+	"calories": Calories_Input.text,
+	"video_link": VideoLink_Input.text
 }

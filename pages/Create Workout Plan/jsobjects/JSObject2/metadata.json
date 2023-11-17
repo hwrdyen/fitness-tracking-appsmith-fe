@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Create Workout Plan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Create Workout Plan_JSObject2",
+  "deleted": false,
+  "gitSyncId": "65568254e8f0205dfc873dfa_6556ce84683a230bb469d2b7"
+}
