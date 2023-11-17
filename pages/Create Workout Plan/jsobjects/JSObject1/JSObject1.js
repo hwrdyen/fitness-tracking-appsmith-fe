@@ -21,6 +21,7 @@ export default {
 	},
 
 	Visible_Exercise5 () {
+		Container5.setVisibility(true);
 		Exercise_5.setVisibility(true);
 		MinusButton_5.setVisibility(true);
 	}
