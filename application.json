@@ -15,6 +15,14 @@
     {
       "id": "Create Exercise",
       "isDefault": false
+    },
+    {
+      "id": "Sign up - User",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -27,6 +35,9 @@
   },
   "color": "#CCCCCC",
   "icon": "rupee",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
