@@ -35,6 +35,14 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Sign up - User",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
