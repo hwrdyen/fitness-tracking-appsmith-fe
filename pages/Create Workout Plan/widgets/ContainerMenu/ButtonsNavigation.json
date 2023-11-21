@@ -13,15 +13,15 @@
         "click",
         "submit"
     ],
-    "topRow": 6,
-    "bottomRow": 10,
+    "topRow": 8,
+    "bottomRow": 12,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton91emiajr00": {
             "onClick": "{{navigateTo('Plan', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "iconName": "person",
+            "iconName": "clipboard",
             "widgetId": "41jnntvvsc",
             "menuItems": {},
             "index": 2,
@@ -30,19 +30,6 @@
             "placement": "CENTER",
             "isDisabled": false,
             "isVisible": true
-        },
-        "groupButtonw885d2661t": {
-            "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "v6kprdjkrj",
-            "menuItems": {},
-            "index": 4,
-            "id": "groupButtonw885d2661t",
-            "label": "Profile",
-            "isDisabled": false,
-            "isVisible": "{{!appsmith.store.isAdmin}}",
-            "placement": "CENTER"
         },
         "groupButton1": {
             "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
@@ -61,7 +48,7 @@
         "groupButton2": {
             "onClick": "{{navigateTo('Exercise', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "person",
+            "iconName": "walk",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
@@ -76,6 +63,7 @@
             "onClick": "{{navigateTo('Client', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "database",
             "widgetId": "7nwf9g3bll",
             "menuItems": {},
             "index": 3,
@@ -95,7 +83,6 @@
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton91emiajr00.onClick"},
         {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButtonw885d2661t.onClick"},
         {"key": "groupButtons.groupButtone26nchfihe.onClick"}
     ],
     "leftColumn": 0,
@@ -104,28 +91,26 @@
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButtone26nchfihe.buttonColor"},
-        {"key": "groupButtons.groupButtone26nchfihe.isVisible"},
-        {"key": "groupButtons.groupButtonw885d2661t.buttonColor"},
-        {"key": "groupButtons.groupButtonw885d2661t.isVisible"}
+        {"key": "groupButtons.groupButtone26nchfihe.isVisible"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 64,
-    "widgetId": "ff15l0csat",
+    "widgetId": "8jcfhmpr6v",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "fzunmsqpbj",
+    "parentId": "pbyixv0lsc",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 6,
+    "originalTopRow": 8,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 10,
+    "originalBottomRow": 12,
     "buttonVariant": "PRIMARY"
 }
