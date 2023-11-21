@@ -34,13 +34,13 @@
     "rightColumn": 44,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "pq0r5u5nvz",
+    "widgetId": "lgr2vrfjdc",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "{{appsmith.theme.colors.primaryColor}}",
     "version": 1,
-    "parentId": "33r4sk2cwn",
+    "parentId": "fzunmsqpbj",
     "tags": [
         "Suggested",
         "Content"

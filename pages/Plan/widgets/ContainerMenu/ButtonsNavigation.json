@@ -3,7 +3,10 @@
     "mobileBottomRow": 10,
     "widgetName": "ButtonsNavigation",
     "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "groupButtons.groupButtone26nchfihe.isVisible"}],
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButtone26nchfihe.isVisible"},
+        {"key": "groupButtons.groupButtonw885d2661t.isVisible"}
+    ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -27,6 +30,19 @@
             "placement": "CENTER",
             "isDisabled": false,
             "isVisible": true
+        },
+        "groupButtonw885d2661t": {
+            "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "v6kprdjkrj",
+            "menuItems": {},
+            "index": 4,
+            "id": "groupButtonw885d2661t",
+            "label": "Profile",
+            "isDisabled": false,
+            "isVisible": "{{!appsmith.store.isAdmin}}",
+            "placement": "CENTER"
         },
         "groupButton1": {
             "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
@@ -57,6 +73,7 @@
             "isDisabled": false
         },
         "groupButtone26nchfihe": {
+            "onClick": "{{navigateTo('Client', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "7nwf9g3bll",
@@ -77,7 +94,9 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton91emiajr00.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtonw885d2661t.onClick"},
+        {"key": "groupButtons.groupButtone26nchfihe.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -85,17 +104,19 @@
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButtone26nchfihe.buttonColor"},
-        {"key": "groupButtons.groupButtone26nchfihe.isVisible"}
+        {"key": "groupButtons.groupButtone26nchfihe.isVisible"},
+        {"key": "groupButtons.groupButtonw885d2661t.buttonColor"},
+        {"key": "groupButtons.groupButtonw885d2661t.isVisible"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 64,
-    "widgetId": "70hjmmwmyj",
+    "widgetId": "knv5us1i5b",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "nckakglgzd",
+    "parentId": "yd7iq0nbbi",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
