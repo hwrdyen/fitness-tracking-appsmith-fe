@@ -1,15 +1,15 @@
 {
   "pages": [
     {
-      "id": "Home",
+      "id": "Login",
       "isDefault": true
     },
     {
-      "id": "Exercise",
+      "id": "Home",
       "isDefault": false
     },
     {
-      "id": "Create Workout Plan",
+      "id": "Exercise",
       "isDefault": false
     },
     {
@@ -18,6 +18,14 @@
     },
     {
       "id": "Plan",
+      "isDefault": false
+    },
+    {
+      "id": "Create Workout Plan",
+      "isDefault": false
+    },
+    {
+      "id": "Client",
       "isDefault": false
     }
   ],

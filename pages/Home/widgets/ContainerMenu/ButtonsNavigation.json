@@ -3,7 +3,7 @@
     "mobileBottomRow": 10,
     "widgetName": "ButtonsNavigation",
     "isCanvas": false,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "groupButtons.groupButtone26nchfihe.isVisible"}],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -55,6 +55,18 @@
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
+        },
+        "groupButtone26nchfihe": {
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "7nwf9g3bll",
+            "menuItems": {},
+            "index": 3,
+            "id": "groupButtone26nchfihe",
+            "label": "Client",
+            "isDisabled": false,
+            "isVisible": "{{appsmith.store.isAdmin}}",
+            "placement": "CENTER"
         }
     },
     "type": "BUTTON_GROUP_WIDGET",
@@ -71,7 +83,9 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"}
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButtone26nchfihe.buttonColor"},
+        {"key": "groupButtons.groupButtone26nchfihe.isVisible"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
