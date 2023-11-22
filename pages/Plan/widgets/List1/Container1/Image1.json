@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 8,
     "widgetName": "Image1",
+    "onClick": "{{navigateTo('Workout Plan Example', {}, 'SAME_WINDOW');}}",
     "displayName": "Image",
     "iconSVG": "/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
     "topRow": 0,
@@ -10,7 +11,7 @@
     "hideCard": false,
     "mobileRightColumn": 16,
     "animateLoading": true,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "imageShape": "RECTANGLE",
     "dynamicBindingPathList": [
         {"key": "image"},

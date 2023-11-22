@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 5,
-    "bottomRow": 9,
+    "topRow": 1,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton91emiajr00": {
@@ -29,7 +29,7 @@
             "isVisible": true
         },
         "groupButton1": {
-            "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "home",
             "buttonColor": "#be185d",
@@ -67,7 +67,7 @@
         {"key": "groupButtons.groupButton91emiajr00.onClick"},
         {"key": "groupButtons.groupButton1.onClick"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 23,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
@@ -76,7 +76,7 @@
     "key": "je3x7exw2a",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 57,
     "widgetId": "f5ufgwa8p2",
     "minWidth": 450,
     "isVisible": true,
@@ -88,9 +88,9 @@
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 5,
+    "originalTopRow": 7,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 9,
+    "originalBottomRow": 11,
     "buttonVariant": "PRIMARY"
 }

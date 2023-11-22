@@ -9,20 +9,19 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 5,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 16,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "fontFamily": "Rubik",
     "parentColumnSpace": 16.046875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
         {"key": "borderRadius"},
         {"key": "textColor"}
     ],
@@ -31,7 +30,7 @@
     "text": "MyFitness",
     "key": "97cdd5cp5h",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 22,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "s7d3rkmcwd",
@@ -53,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
-    "fontSize": "1.875rem",
+    "originalBottomRow": 7,
+    "fontSize": "3rem",
     "minDynamicHeight": 4
 }

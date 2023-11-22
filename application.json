@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Login",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Home",
@@ -38,6 +38,10 @@
     },
     {
       "id": "Home Page",
+      "isDefault": true
+    },
+    {
+      "id": "Workout Plan Example",
       "isDefault": false
     }
   ],
