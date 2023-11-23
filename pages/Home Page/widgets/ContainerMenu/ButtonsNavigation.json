@@ -18,6 +18,7 @@
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButtoncv3ido45v5": {
+            "onClick": "{{navigateTo('Client', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "database",
@@ -81,7 +82,8 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton91emiajr00.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtoncv3ido45v5.onClick"}
     ],
     "leftColumn": 23,
     "dynamicBindingPathList": [

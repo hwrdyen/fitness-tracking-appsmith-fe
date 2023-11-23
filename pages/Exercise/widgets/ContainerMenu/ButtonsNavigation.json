@@ -3,7 +3,10 @@
     "mobileBottomRow": 10,
     "widgetName": "ButtonsNavigation",
     "isCanvas": false,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButtonz0qeko5s8j.isVisible"},
+        {"key": "groupButtons.groupButton91emiajr00.isVisible"}
+    ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -26,7 +29,21 @@
             "label": "Plan",
             "placement": "CENTER",
             "isDisabled": false,
-            "isVisible": true
+            "isVisible": "{{!appsmith.store.isAdmin}}"
+        },
+        "groupButtonz0qeko5s8j": {
+            "onClick": "{{navigateTo('Client', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "database",
+            "widgetId": "0fe24bmvw8",
+            "menuItems": {},
+            "index": 3,
+            "id": "groupButtonz0qeko5s8j",
+            "label": "Client",
+            "isDisabled": false,
+            "isVisible": "{{appsmith.store.isAdmin}}",
+            "placement": "CENTER"
         },
         "groupButton1": {
             "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
@@ -65,13 +82,17 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButton91emiajr00.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButtonz0qeko5s8j.onClick"}
     ],
     "leftColumn": 23,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
-        {"key": "groupButtons.groupButton1.buttonColor"}
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButtonz0qeko5s8j.buttonColor"},
+        {"key": "groupButtons.groupButtonz0qeko5s8j.isVisible"},
+        {"key": "groupButtons.groupButton91emiajr00.isVisible"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",

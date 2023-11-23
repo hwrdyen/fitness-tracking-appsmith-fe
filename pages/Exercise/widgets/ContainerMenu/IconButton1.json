@@ -4,6 +4,7 @@
     "widgetName": "IconButton1",
     "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#ffffff",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
@@ -21,7 +22,10 @@
     "parentColumnSpace": 12.265625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 60,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "isVisible"}
+    ],
     "isDisabled": false,
     "key": "guo1asc6bs",
     "isDeprecated": false,
@@ -29,7 +33,7 @@
     "iconName": "user",
     "widgetId": "dkwso6jh4v",
     "minWidth": 50,
-    "isVisible": true,
+    "isVisible": "{{!appsmith.store.isAdmin}}",
     "version": 1,
     "parentId": "2xs548tsmb",
     "tags": ["Buttons"],
