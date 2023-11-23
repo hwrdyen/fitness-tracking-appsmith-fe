@@ -5,8 +5,12 @@
       "isDefault": false
     },
     {
-      "id": "Home",
+      "id": "Sign up - User",
       "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": true
     },
     {
       "id": "Exercise",
@@ -18,6 +22,10 @@
     },
     {
       "id": "Plan",
+      "isDefault": false
+    },
+    {
+      "id": "Workout Plan Example",
       "isDefault": false
     },
     {
@@ -33,15 +41,7 @@
       "isDefault": false
     },
     {
-      "id": "Sign up - User",
-      "isDefault": false
-    },
-    {
-      "id": "Home Page",
-      "isDefault": true
-    },
-    {
-      "id": "Workout Plan Example",
+      "id": "Home Old",
       "isDefault": false
     }
   ],

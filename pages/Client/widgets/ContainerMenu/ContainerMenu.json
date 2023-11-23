@@ -4,6 +4,7 @@
     "widgetName": "ContainerMenu",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
+    "dynamicPropertyPathList": [{"key": "backgroundColor"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "searchTags": [
@@ -20,6 +21,7 @@
     "mobileRightColumn": 19,
     "animateLoading": true,
     "parentColumnSpace": 16.359375,
+    "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -60,7 +62,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "start",
     "key": "wd247956sz",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "url('https://img.freepik.com/free-vector/gradient-home-gym-with-different-elements_23-2148809749.jpg?w=1480&t=st=1700770535~exp=1700771135~hmac=8676c1f2b611bf6d1ce2839a597984090ec9124da148bac253e314fd6a103154')",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",

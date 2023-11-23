@@ -10,7 +10,7 @@ export default {
 				showAlert('User Authen Successful');
 				storeValue('userID', GetUser.data.userId);
 				storeValue('isAdmin', GetUser.data.isAdmin);
-				navigateTo('Home', {})
+				navigateTo('Home Page', {})
 			}
 		})
 		.catch(() => {

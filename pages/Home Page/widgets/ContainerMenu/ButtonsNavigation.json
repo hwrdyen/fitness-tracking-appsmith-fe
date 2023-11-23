@@ -3,7 +3,10 @@
     "mobileBottomRow": 10,
     "widgetName": "ButtonsNavigation",
     "isCanvas": false,
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButtoncv3ido45v5.isVisible"},
+        {"key": "groupButtons.groupButton91emiajr00.isVisible"}
+    ],
     "displayName": "Button Group",
     "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
     "searchTags": [
@@ -14,6 +17,19 @@
     "bottomRow": 5,
     "parentRowSpace": 10,
     "groupButtons": {
+        "groupButtoncv3ido45v5": {
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "database",
+            "widgetId": "05epiv8w2g",
+            "menuItems": {},
+            "index": 3,
+            "id": "groupButtoncv3ido45v5",
+            "label": "Client",
+            "isDisabled": false,
+            "isVisible": "{{appsmith.store.isAdmin}}",
+            "placement": "CENTER"
+        },
         "groupButton91emiajr00": {
             "onClick": "{{navigateTo('Plan', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
@@ -26,7 +42,7 @@
             "label": "Plan",
             "placement": "CENTER",
             "isDisabled": false,
-            "isVisible": true
+            "isVisible": "{{!appsmith.store.isAdmin}}"
         },
         "groupButton1": {
             "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
@@ -71,7 +87,10 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
-        {"key": "groupButtons.groupButton2.buttonColor"}
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "groupButtons.groupButtoncv3ido45v5.buttonColor"},
+        {"key": "groupButtons.groupButtoncv3ido45v5.isVisible"},
+        {"key": "groupButtons.groupButton91emiajr00.isVisible"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",

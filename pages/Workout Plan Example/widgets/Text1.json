@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Workout Blue",
+    "text": "{{GetPlanDetail.data.planname}}",
     "key": "5dv1fpgbjh",
     "isDeprecated": false,
     "rightColumn": 17,
