@@ -28,7 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create Workout Plan_JSObject2.ResetVisibility",
               "name": "JSObject2.ResetVisibility",
               "collectionId": "Create Workout Plan_JSObject2",
               "confirmBeforeExecute": false,
