@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{GetPlanDetail.data.planname}}",
+    "text": "Workout Plan Name: {{GetPlanDetail.data.planname}}",
     "key": "5dv1fpgbjh",
     "isDeprecated": false,
     "rightColumn": 17,

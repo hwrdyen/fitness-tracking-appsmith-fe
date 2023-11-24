@@ -1,0 +1,7 @@
+{{  
+{
+	"id": WorkoutPlanId_Input.text,
+  "dates": WorkoutPlanDate_Input.text,
+  "clientId": appsmith.store.userID,
+  "planname": WorkoutPlanName_Input.text
+}}}

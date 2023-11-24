@@ -33,6 +33,10 @@
       "isDefault": false
     },
     {
+      "id": "Select Exercises",
+      "isDefault": false
+    },
+    {
       "id": "Client",
       "isDefault": false
     },
