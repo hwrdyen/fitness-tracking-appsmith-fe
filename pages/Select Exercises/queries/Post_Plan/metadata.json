@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{}}",
+      "body": "{{\n\t{\n\t\t\"workoutplanId\": appsmith.URL.queryParams.workoutplan_id, \n\t\t\"exerciseId\": Exercise_1.selectedOptionValue, \n\t\t\"duration\": Duration_1.text\n\t}\n}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,7 +43,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -53,7 +53,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      ""
+      "\n\t{\n\t\t\"workoutplanId\": appsmith.URL.queryParams.workoutplan_id, \n\t\t\"exerciseId\": Exercise_1.selectedOptionValue, \n\t\t\"duration\": Duration_1.text\n\t}\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

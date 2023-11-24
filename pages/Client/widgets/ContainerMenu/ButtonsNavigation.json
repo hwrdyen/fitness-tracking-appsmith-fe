@@ -18,10 +18,10 @@
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton1": {
-            "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "home",
-            "buttonColor": "#be185d",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 0,
@@ -48,7 +48,7 @@
         "groupButtone26nchfihe": {
             "onClick": "{{navigateTo('Client', {}, 'SAME_WINDOW');}}",
             "buttonType": "MENU",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#be185d",
             "iconName": "database",
             "widgetId": "7nwf9g3bll",
             "menuItems": {},
@@ -74,8 +74,8 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButtone26nchfihe.buttonColor"},
-        {"key": "groupButtons.groupButtone26nchfihe.isVisible"}
+        {"key": "groupButtons.groupButtone26nchfihe.isVisible"},
+        {"key": "groupButtons.groupButton1.buttonColor"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",

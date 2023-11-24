@@ -1,1 +1,7 @@
-{{}}
+{{
+	{
+		"workoutplanId": appsmith.URL.queryParams.workoutplan_id, 
+		"exerciseId": Exercise_1.selectedOptionValue, 
+		"duration": Duration_1.text
+	}
+}}

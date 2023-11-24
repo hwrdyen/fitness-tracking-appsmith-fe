@@ -43,10 +43,6 @@
     {
       "id": "Profile",
       "isDefault": false
-    },
-    {
-      "id": "Home Old",
-      "isDefault": false
     }
   ],
   "viewMode": false,
