@@ -13,7 +13,7 @@
         "group"
     ],
     "topRow": 5,
-    "bottomRow": 104,
+    "bottomRow": 95,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -32,7 +32,7 @@
         "widgetName": "Canvas1Copy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 990,
+        "bottomRow": 900,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -62,7 +62,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "start",
     "key": "wd247956sz",
-    "backgroundColor": "url('https://img.freepik.com/free-vector/gradient-home-gym-with-different-elements_23-2148809749.jpg?w=1480&t=st=1700770535~exp=1700771135~hmac=8676c1f2b611bf6d1ce2839a597984090ec9124da148bac253e314fd6a103154')",
+    "backgroundColor": "url('https://ik.imagekit.io/ugqozxtfv/11827840_4857556%20(1).jpg?updatedAt=1700954360092')",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
@@ -80,7 +80,7 @@
     "originalTopRow": 5,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "maxDynamicHeight": 103,
-    "originalBottomRow": 104,
-    "minDynamicHeight": 99
+    "maxDynamicHeight": 91,
+    "originalBottomRow": 95,
+    "minDynamicHeight": 90
 }
