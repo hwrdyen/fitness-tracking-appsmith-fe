@@ -1,0 +1,10 @@
+{{
+{
+	"userId": Input1.text,
+	"email": Input2.text,
+	"password": Input3.text,
+	"firstName": Input4.text,
+	"lastName": Input5.text,
+	"isAdmin": Checkbox1.isChecked
+}
+}}

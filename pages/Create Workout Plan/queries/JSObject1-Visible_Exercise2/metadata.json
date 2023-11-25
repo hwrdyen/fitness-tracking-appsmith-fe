@@ -16,7 +16,7 @@
     "pageId": "Create Workout Plan",
     "collectionId": "Create Workout Plan_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -38,5 +38,5 @@
   },
   "id": "Create Workout Plan_JSObject1.Visible_Exercise2",
   "deleted": false,
-  "gitSyncId": "65568254e8f0205dfc873dfa_6556ce1b683a230bb469d2b1"
+  "gitSyncId": "65567564e8f0205dfc873dc0_6560f75aee8ff541ac3da510"
 }

@@ -33,15 +33,15 @@
       "isDefault": false
     },
     {
+      "id": "Select Exercises",
+      "isDefault": false
+    },
+    {
       "id": "Client",
       "isDefault": false
     },
     {
       "id": "Profile",
-      "isDefault": false
-    },
-    {
-      "id": "Home Old",
       "isDefault": false
     }
   ],

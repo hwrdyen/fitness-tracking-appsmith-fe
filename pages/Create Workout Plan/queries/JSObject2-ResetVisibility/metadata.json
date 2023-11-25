@@ -16,13 +16,13 @@
     "pageId": "Create Workout Plan",
     "collectionId": "Create Workout Plan_JSObject2",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,12 +31,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
   "id": "Create Workout Plan_JSObject2.ResetVisibility",
   "deleted": false,
-  "gitSyncId": "65568254e8f0205dfc873dfa_6556cea6683a230bb469d2b9"
+  "gitSyncId": "65567564e8f0205dfc873dc0_6560f75aee8ff541ac3da50c"
 }

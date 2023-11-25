@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 960,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,11 +28,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Plan_GetAllWorkoutPlan",
-              "name": "GetAllWorkoutPlan",
+              "id": "Plan_GetClientWorkoutPlan",
+              "name": "GetClientWorkoutPlan",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.userID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

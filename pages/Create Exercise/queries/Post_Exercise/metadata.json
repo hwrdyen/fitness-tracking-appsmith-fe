@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"name\": ExerciseName_Input.text,\n\t\"calories\": Calories_Input.text,\n\t\"video_link\": VideoLink_Input.text\n}",
+      "body": "{{{\n  \"name\": ExerciseName_Input.text,\n  \"id\": ExerciseId_Input.text,\n  \"calories\": Calories_Input.text,\n  \"video_link\": VideoLink_Input.text\n}}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -44,11 +44,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "{\n  \"name\": ExerciseName_Input.text,\n  \"id\": ExerciseId_Input.text,\n  \"calories\": Calories_Input.text,\n  \"video_link\": VideoLink_Input.text\n}"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
