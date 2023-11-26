@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 41,
     "widgetName": "Button1",
-    "onClick": "{{(function() {\n      if (Checkbox1.isChecked && Input6.text == \"ADMIN\") {\n       PostNewUser.run().then(() => {\n\tshowAlert('User Sign Up Successful');\n  navigateTo('Login', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Invalid Input', 'error');\n});\n\n      } else if (Checkbox1.isChecked != true) {\n        PostNewUser.run().then(() => {\n\tshowAlert('User Sign Up Successful');\n  navigateTo('Login', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Invalid Input', 'error');\n});\n\n      } else {\nshowAlert('Invalid Input', 'error');\n}\n   })()}}",
+    "onClick": "{{(function() {\n      if (Checkbox1.isChecked && Input6.text == \"ADMIN\") {\n       PostNewUser.run().then(() => {\n\tshowAlert('User Sign Up Successful');\n  navigateTo('Login', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('ID already Exists or Invalid Input', 'error');\n});\n\n      } else if (Checkbox1.isChecked != true) {\n        PostNewUser.run().then(() => {\n\tshowAlert('User Sign Up Successful');\n  navigateTo('Login', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('ID already Exists or Invalid Input', 'error');\n});\n\n      } else {\nshowAlert('ID already Exists or Invalid Input', 'error');\n}\n   })()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
