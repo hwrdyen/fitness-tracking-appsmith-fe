@@ -1,6 +1,6 @@
 {{
 {
-	"userId": Input1.text,
+	"id": Input1.text,
 	"email": Input2.text,
 	"password": Input3.text,
 	"firstName": Input4.text,

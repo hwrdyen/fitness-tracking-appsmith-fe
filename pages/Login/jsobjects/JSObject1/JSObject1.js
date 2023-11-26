@@ -8,7 +8,7 @@ export default {
 			}
 			else{
 				showAlert('User Authen Successful');
-				storeValue('userID', GetUser.data.userId);
+				storeValue('userID', GetUser.data.id);
 				storeValue('isAdmin', GetUser.data.isAdmin);
 				navigateTo('Home Page', {})
 			}

@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{\n{\n\t\"userId\": Input1.text,\n\t\"email\": Input2.text,\n\t\"password\": Input3.text,\n\t\"firstName\": Input4.text,\n\t\"lastName\": Input5.text,\n\t\"isAdmin\": Checkbox1.isChecked\n}\n}}",
+      "body": "{{\n{\n\t\"id\": Input1.text,\n\t\"email\": Input2.text,\n\t\"password\": Input3.text,\n\t\"firstName\": Input4.text,\n\t\"lastName\": Input5.text,\n\t\"isAdmin\": Checkbox1.isChecked\n}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -53,7 +53,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\n{\n\t\"userId\": Input1.text,\n\t\"email\": Input2.text,\n\t\"password\": Input3.text,\n\t\"firstName\": Input4.text,\n\t\"lastName\": Input5.text,\n\t\"isAdmin\": Checkbox1.isChecked\n}\n"
+      "\n{\n\t\"id\": Input1.text,\n\t\"email\": Input2.text,\n\t\"password\": Input3.text,\n\t\"firstName\": Input4.text,\n\t\"lastName\": Input5.text,\n\t\"isAdmin\": Checkbox1.isChecked\n}\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
