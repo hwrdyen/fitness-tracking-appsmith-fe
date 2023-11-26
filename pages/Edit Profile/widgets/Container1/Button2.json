@@ -3,7 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 43,
     "widgetName": "Button2",
+    "onClick": "{{PutSingleClient.run().then(() => {\n  showAlert('Successfully Updated User Info', 'success');\n  navigateTo('Profile', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failed to Update User Info', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -18,8 +20,8 @@
     "mobileRightColumn": 58,
     "animateLoading": true,
     "parentColumnSpace": 12.296875,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 43,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 41,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,7 +30,7 @@
     "isDisabled": false,
     "key": "2hh22xu9we",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 48,
     "isDefaultClickDisabled": true,
     "widgetId": "skd7facex5",
     "minWidth": 120,
@@ -41,9 +43,11 @@
     "isLoading": false,
     "mobileTopRow": 39,
     "responsiveBehavior": "hug",
+    "originalTopRow": 38,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 42,
+    "originalBottomRow": 42,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

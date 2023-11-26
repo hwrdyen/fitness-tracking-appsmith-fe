@@ -1,0 +1,7 @@
+{{
+{
+	"firstName": Input1.text,
+	"lastName": Input2.text,
+	"email": Input3.text,
+}
+}}

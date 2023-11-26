@@ -43,6 +43,10 @@
     {
       "id": "Profile",
       "isDefault": false
+    },
+    {
+      "id": "Edit Profile",
+      "isDefault": false
     }
   ],
   "viewMode": false,
