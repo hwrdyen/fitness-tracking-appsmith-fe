@@ -21,7 +21,7 @@
     "image": "{{currentItem.img}}",
     "isDeprecated": false,
     "rightColumn": 15,
-    "objectFit": "cover",
+    "objectFit": "contain",
     "widgetId": "z27k2loool",
     "isVisible": true,
     "version": 1,

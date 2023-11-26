@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 7,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Workout Plan Name: {{GetPlanDetail.data.planname}}",
     "key": "5dv1fpgbjh",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 31,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "cpee150v6q",
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 7,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

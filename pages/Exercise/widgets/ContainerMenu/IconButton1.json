@@ -18,6 +18,7 @@
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 18,
+    "topRowBeforeCollapse": 1,
     "animateLoading": true,
     "parentColumnSpace": 12.265625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
@@ -32,6 +33,7 @@
     "rightColumn": 64,
     "iconName": "user",
     "widgetId": "dkwso6jh4v",
+    "bottomRowBeforeCollapse": 5,
     "minWidth": 50,
     "isVisible": "{{!appsmith.store.isAdmin}}",
     "version": 1,
@@ -41,9 +43,9 @@
     "isLoading": false,
     "mobileTopRow": 30,
     "responsiveBehavior": "hug",
-    "originalTopRow": 13,
+    "originalTopRow": 1,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 14,
-    "originalBottomRow": 17,
+    "originalBottomRow": 5,
     "buttonVariant": "PRIMARY"
 }
