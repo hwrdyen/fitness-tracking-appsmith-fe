@@ -87,7 +87,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{GetPlanDetail.data.plans.map((plan, index) => {\nreturn {\n\"index\": index,\n\"plandetailId\": plan.plandetailId,\n\"workoutplanId\": plan.plandetailId['workoutplanId'],\n\"exerciseId\": plan.plandetailId['exerciseId'],\n\"exerciseName\":plan.exercise.name,\n\t\"exerciseCalories\": plan.exercise.calories,\n\t\"exerciseDuration\": plan.duration,\n\t\"exerciseVideolink\": plan.exercise.video_link,\n}\n})}}\n",
+    "listData": "{{GetPlanDetail.data.plans.map((plan, index) => {\nreturn {\n\"index\": index,\n\"plandetailId\": plan.plandetailId,\n\"workoutplanId\": plan.plandetailId['workoutplanId'],\n\"exerciseId\": plan.plandetailId['exerciseId'],\n\"exerciseName\":plan.exercise.name,\n\t\"exerciseCalories\": plan.exercise.calories,\n\t\"exerciseDuration\": plan.duration,\n\t\"exerciseVideolink\": plan.exercise.video_link,\n\t\"exerciseImagelink\": plan.exercise.image_link,\n}\n})}}\n",
     "dynamicPropertyPathList": [{"key": "primaryKeys"}],
     "displayName": "List",
     "bottomRow": 58,

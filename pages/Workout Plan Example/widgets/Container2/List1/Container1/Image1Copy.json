@@ -18,7 +18,7 @@
     "defaultImage": "https://assets.appsmith.com/widgets/default.png",
     "flexVerticalAlignment": "start",
     "key": "6j8m12x9q5",
-    "image": "{{currentItem.image_link}}",
+    "image": "{{currentItem.exerciseImagelink}}",
     "isDeprecated": false,
     "rightColumn": 15,
     "objectFit": "cover",
