@@ -63,8 +63,8 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 16,
+    "originalTopRow": 19,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 26,
+    "originalBottomRow": 29,
     "minDynamicHeight": 10
 }
