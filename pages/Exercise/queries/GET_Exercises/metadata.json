@@ -46,8 +46,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-16T20:53:19Z"
+    "userPermissions": []
   },
   "id": "Exercise_GET_Exercises",
   "deleted": false,

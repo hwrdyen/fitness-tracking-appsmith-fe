@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1000,
+          "bottomRow": 980,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -30,6 +30,16 @@
             {
               "id": "Workout Plan Example_GetPlanDetail",
               "name": "GetPlanDetail",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.param"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Workout Plan Example_GetPlanDetailTotalCalorie",
+              "name": "GetPlanDetailTotalCalorie",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

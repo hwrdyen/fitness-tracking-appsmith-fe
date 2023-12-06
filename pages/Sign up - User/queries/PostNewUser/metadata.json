@@ -58,8 +58,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T04:14:35Z"
+    "userPermissions": []
   },
   "id": "Sign up - User_PostNewUser",
   "deleted": false,

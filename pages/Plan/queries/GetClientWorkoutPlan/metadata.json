@@ -52,8 +52,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T03:55:58Z"
+    "userPermissions": []
   },
   "id": "Plan_GetClientWorkoutPlan",
   "deleted": false,

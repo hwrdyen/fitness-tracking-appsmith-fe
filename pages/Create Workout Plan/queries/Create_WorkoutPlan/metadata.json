@@ -58,8 +58,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T03:55:58Z"
+    "userPermissions": []
   },
   "id": "Create Workout Plan_Create_WorkoutPlan",
   "deleted": false,

@@ -62,8 +62,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-26T23:01:32Z"
+    "userPermissions": []
   },
   "id": "Edit Profile_PutSingleClient",
   "deleted": false,

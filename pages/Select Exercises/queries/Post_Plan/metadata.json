@@ -58,8 +58,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-24T06:00:49Z"
+    "userPermissions": []
   },
   "id": "Select Exercises_Post_Plan",
   "deleted": false,

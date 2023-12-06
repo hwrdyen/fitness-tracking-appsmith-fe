@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 60,
-    "bottomRow": 66,
+    "bottomRow": 64,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Total Calories Burned: {{GetPlanDetail.data.caloriesburned}}",
+    "text": "Total Calories Burned: {{GetPlanDetailTotalCalorie.data.caloriesburned}}",
     "key": "5dv1fpgbjh",
     "isDeprecated": false,
     "rightColumn": 63,

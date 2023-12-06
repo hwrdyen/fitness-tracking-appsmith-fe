@@ -52,8 +52,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-21T16:24:15Z"
+    "userPermissions": []
   },
   "id": "Login_GetUser",
   "deleted": false,

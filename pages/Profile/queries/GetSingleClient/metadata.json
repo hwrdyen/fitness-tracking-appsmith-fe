@@ -52,8 +52,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-21T22:30:32Z"
+    "userPermissions": []
   },
   "id": "Profile_GetSingleClient",
   "deleted": false,
